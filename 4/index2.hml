@@ -11,7 +11,7 @@
         if (name === null || name === '') {alert("Имя пустое");}
         else if (name.length < 2) {alert("Имя слишком короткое");}
         else if (name.length > 30) {alert("Имя слишком длинное");}
-        else {alert("Ваше имя" + name)}
+        else {alert("Ваше имя " + name)}
     </script>
 </body>
 </html>
